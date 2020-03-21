@@ -1,10 +1,9 @@
 {
-  "description":"Its times like these, we need to come back together again.
-                And what a great way to come together by helping one another.
-                Join our community to get the sense of security and resources you need.
-                By working together, we can empower each other and thrive through any hard or difficult period.
-                Were always looking for volunteers to help us with the high demands of community needs and
-                resources. If you are interested, click the link below to learn more on how you can help.",
+  "banner":{
+    "img":"../static/images/shutterstock_154573484.jpg",
+    "title":"About us"
+  },
+  "description":"Its times like these, we need to come back together again. And what a great way to come together by helping one another. Join our community to get the sense of security and resources you need. By working together, we can empower each other and thrive through any hard or difficult period. Were always looking for volunteers to help us with the high demands of community needs and resources. If you are interested, click the link below to learn more on how you can help.",
 
   "resources":[
     "Groceries",
@@ -16,7 +15,7 @@
     "Your Health and Wellness Tips",
     "Medical Supplies",
     "Medications",
-    "Internet Services"
+    "Internet Services",
     "Housing",
     "Employment / Unemployment Support",
     "Small Business Support"

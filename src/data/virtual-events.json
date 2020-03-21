@@ -1,10 +1,11 @@
 {
-  "fromHome":"Even though you may be able to party outside, that doesn’t mean you cant enjoy events fromhome.
-              We have found links to exciting, educational and productive links to help you pass the time.
-              Check out the links below to find an event.",
+  "banner":{
+    "img":"../../static/images/Virtual Events_ Party From Home.jpg",
+    "title":""
+  },
+  "fromHome":"Even though you may be able to party outside, that doesn’t mean you cant enjoy events fromhome. We have found links to exciting, educational and productive links to help you pass the time. Check out the links below to find an event.",
 
   "featured":"Check out one of the featured events.",
 
-  "upcoming":"Want to see more?
-              Check out the list of upcoming events."
+  "upcoming":"Want to see more? Check out the list of upcoming events."
 }
