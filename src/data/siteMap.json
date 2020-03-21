@@ -1,26 +1,26 @@
 [
   {
     "page":"Home",
-    "ref":""
+    "ref":"/"
   },
   {
     "page":"About",
-    "ref":""
+    "ref":"/about"
   },
   {
     "page":"Virtual Events",
-    "ref":""
+    "ref":"/virtual-events"
   },
   {
     "page":"Resources",
-    "ref":""
+    "ref":"/resources"
   },
   {
     "page":"Support",
-    "ref":""
+    "ref":"/support"
   },
   {
-    "page":"Donate",
-    "ref":
+    "page":"Contact",
+    "ref":"/contact"
   }
 ]

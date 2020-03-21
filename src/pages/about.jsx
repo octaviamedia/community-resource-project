@@ -2,14 +2,14 @@ import "../styles/main.scss";
 import { Container } from "react-bootstrap";
 import MainLayout from "../components/layout";
 
-const Index = () => {
+const About = () => {
 	return (
     <MainLayout>
   		<Container>
-  			<h1>Hello World</h1>
+  			<h1>About</h1>
   		</Container>
     </MainLayout>
 	);
 };
 
-export default Index;
+export default About;
