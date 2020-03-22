@@ -1,0 +1,33 @@
+@import "./variables";
+@import "./mixins";
+
+.footer-container{
+  padding: 1em;
+  background: $peach;
+}
+
+.footer-map{
+  margin-top: -150px;
+  @include media-breakpoint-down(xs) {
+    display: none;
+	}
+}
+
+.footer-map-item{
+  list-style-type: none;
+
+  width:50%;
+  color:$navy-blue;
+}
+
+.footer-map-item:hover{
+  color:$sand;
+  cursor:pointer;
+}
+
+.socials-container{
+  width: 100%;
+  @include media-breakpoint-down(xs) {
+		text-align: center;
+	}
+}
