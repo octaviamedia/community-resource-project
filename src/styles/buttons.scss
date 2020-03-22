@@ -1,0 +1,18 @@
+@import "./variables";
+
+.join-btn{
+  background: $cta-color;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
+
+.join-btn:hover{
+  background: $cta-color;
+  opacity: .75;
+}
+
+.join-btn:onclick{
+  background: $cta-color;
+  border: none;
+}
