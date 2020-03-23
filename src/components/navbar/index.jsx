@@ -25,7 +25,7 @@ const MainNavbar = ({navItems}) => {
       </Navbar.Toggle>
 
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="mr-auto" defaultActiveKey="/">
           {navItems.map((item) => (
             <Nav.Link href={item.ref} replace>
               <span className = "item">{item.page}</span>

@@ -10,10 +10,15 @@
 @import "./buttons.scss";
 @import "./footer.scss";
 
+body{
+  background:$off-white;
+}
+
 p{
-  font-size: 1em;
+  font-size: 1.25em;
   font-family: $primary-font;
-  margin:.5em
+  text-align: center;
+  margin:1.5em
 }
 
 span{
@@ -34,22 +39,26 @@ h1{
   font-size: 3em;
   font-family: $secondary-font;
   margin: .75em;
+  text-align: center;
 }
 
 h2{
   font-size: 2.5em;
   font-family: $secondary-font;
   margin: 1em;
+  text-align: center;
 }
 
 h3{
   font-size: 2em;
   font-family: $secondary-font;
   margin: 1em;
+  text-align: center;
 }
 
 h4{
   font-size: 1.25em;
   font-family: $secondary-font;
   margin: 1em;
+  text-align: center;
 }

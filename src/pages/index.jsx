@@ -1,5 +1,5 @@
 import "../styles/main.scss";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import MainLayout from "../components/layout";
 import content from "../data/home";
 
@@ -7,7 +7,13 @@ const Index = () => {
 	return (
     <MainLayout banner = {content.banner}>
   		<Container>
-  			<h1>Hello World</h1>
+  			<Row>
+          <Col>
+            <h1>We're Here to Help</h1>
+            <p>{content.description}</p>
+            <Button className="site-nav-btn mx-auto d-block"><span>About Us</span></Button>
+          </Col>
+        </Row>
   		</Container>
     </MainLayout>
 	);

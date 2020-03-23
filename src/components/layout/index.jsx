@@ -9,16 +9,18 @@ import "../../styles/main.scss";
 const MainLayout = ({children, banner}) => (
   <div>
     <Meta/>
-    <MainNavbar
-      navItems = {siteMap}
-    />
-    {banner && <Banner {...banner} />}
-    <div>
-      {children}
-    </div>
-    <Footer
-      navItems = {siteMap}
-    />
+    <body>
+      <MainNavbar
+        navItems = {siteMap}
+      />
+      {banner && <Banner {...banner} />}
+      <div>
+        {children}
+      </div>
+      <Footer
+        navItems = {siteMap}
+      />
+    </body>
   </div>
 );
 

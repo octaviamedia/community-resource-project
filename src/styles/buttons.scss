@@ -17,6 +17,27 @@
   border: none;
 }
 
+.banner-btn-cont{
+  position: absolute;
+  left:50%;
+  top:70%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-buttons{
+  background: $navy-blue;
+  border: none;
+  margin: 15px;
+  width: 175px;
+}
+
+.site-nav-btn{
+  background: $navy-blue;
+  border: none;
+  padding:10px;
+  margin: 1em;
+}
+
 .social-btn{
   display: inline-block;
 }
