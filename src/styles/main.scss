@@ -35,6 +35,10 @@ li{
   margin:.5em
 }
 
+.link{
+  color:$navy-blue;
+}
+
 h1{
   font-size: 3em;
   font-family: $secondary-font;
@@ -61,4 +65,10 @@ h4{
   font-family: $secondary-font;
   margin: 1em;
   text-align: center;
+}
+
+
+.iframe{
+  text-align: center;
+  margin: 10px;
 }
