@@ -54,7 +54,7 @@ h2{
 }
 
 h3{
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: $secondary-font;
   margin: 1em;
   text-align: center;
@@ -67,8 +67,18 @@ h4{
   text-align: center;
 }
 
-
 .iframe{
   text-align: center;
   margin: 10px;
+}
+
+.peach{
+  background:$peach;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.blue{
+  background: $light-blue;
+  padding: 1em
 }
