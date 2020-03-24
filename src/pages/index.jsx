@@ -54,7 +54,7 @@ const Index = () => {
         <Row className="blue">
           <Col xs={12} md={6}>
             <Image
-              src="../static/images/tucson-88371_1280.jpg"
+              src="../static/images/TCRP Logo 3.21.20.jpg"
               fluid
             />
           </Col>

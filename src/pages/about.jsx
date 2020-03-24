@@ -1,6 +1,7 @@
 import "../styles/main.scss";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import {FacebookLogo, InstagramLogo} from "../components/buttons/socialButtons";
+import CalltoAction from "../components/cta";
 import Link from "next/link";
 import content from "../data/about";
 import Cta from "../components/cta"
@@ -17,6 +18,7 @@ const About = () => {
       <CurrentResources
         resources = {content.resources}
       />
+      <Callto/>
     </MainLayout>
 	);
 };
@@ -80,7 +82,7 @@ const TwoCols = () => (
 );
 
 const CurrentResources = ({resources}) => (
-  <Container fluid className="sand">
+  <Container fluid>
   <div className="m-3">
   <div className="resource-cont">
     <h2>List of Current Resources</h2>
@@ -95,7 +97,25 @@ const CurrentResources = ({resources}) => (
   </Link>
   </div>
   </Container>
+);
 
+const Callto = () =>(
+  <Container fluid>
+    <Row className="blue">
+      <Col xs={12} md={6}>
+        <Image
+          src="../static/images/TCRP Logo 3.21.20.jpg"
+          fluid
+        />
+      </Col>
+      <Col xs={12} md={6}>
+        <CalltoAction
+          heading={content.cta.heading}
+          steps={content.cta.steps}
+        />
+      </Col>
+    </Row>
+  </Container>
 );
 
 export default About;
