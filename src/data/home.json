@@ -1,6 +1,7 @@
 {
    "banner": {
       "img": "../../static/images/Home Banner Img.jpg",
+      "title":"The Community Resource Project",
       "buttons":[
         {
           "text":"Learn More",

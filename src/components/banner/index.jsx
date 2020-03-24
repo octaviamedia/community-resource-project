@@ -2,10 +2,11 @@ import React from "react";
 import {Image, Button} from "react-bootstrap";
 
 
-const Banner = ({img, buttons}) => {
+const Banner = ({img, buttons, title}) => {
   return (
     <div className="banner">
       <Image src={img}/>
+
       <div className = "banner-btn-cont">
         {buttons && buttons.map((button) => (
           <Button className="banner-buttons">

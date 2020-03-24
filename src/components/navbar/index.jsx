@@ -13,9 +13,9 @@ const MainNavbar = ({navItems}) => {
     <div>
     <Navbar expand="lg" className="nav" sticky="top">
       <Image
-        src = "../../../static/images/acrp LOGO 031920 2.png"
-        width={210}
-        height={110}
+        src = "../../../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
+        width={350}
+        height={150}
       />
 
       <Navbar.Toggle className = "ml-auto">
@@ -33,9 +33,11 @@ const MainNavbar = ({navItems}) => {
           ))}
         </Nav>
         <Navbar.Brand className = "ml-auto">
+          <Nav.Link href="/join">
            <Button className="join-btn">
              <span>Join</span>
            </Button>
+         </Nav.Link>
 
        </Navbar.Brand>
       </Navbar.Collapse>
