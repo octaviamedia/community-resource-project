@@ -1,6 +1,7 @@
 import "../styles/main.scss";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import MainLayout from "../components/layout";
+import CalltoAction from "../components/cta";
 import content from "../data/home";
 
 const Index = () => {
@@ -55,17 +56,10 @@ const Index = () => {
             />
           </Col>
           <Col xs={12} md={6}>
-            <h2>Ready to Join the Community?</h2>
-            <p>{content.cta.heading}</p>
-            <ol>
-            {content.cta.steps.map((step) => (
-              <li>{step}</li>
-            ))}
-            </ol>
-            <div align="center">
-              <Button className="site-nav-btn"><span>Join</span></Button>
-              <Button className="site-nav-btn"><span>Volunteer</span></Button>
-            </div>
+            <CalltoAction
+              heading={content.cta.heading}
+              steps={content.cta.steps}
+            />
           </Col>
         </Row>
 

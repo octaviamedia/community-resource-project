@@ -1,16 +1,90 @@
 import "../styles/main.scss";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import {FacebookLogo, InstagramLogo} from "../components/buttons/socialButtons";
 import content from "../data/about";
+import Cta from "../components/cta"
 import MainLayout from "../components/layout";
 
 const About = () => {
 	return (
     <MainLayout banner = {content.banner}>
-  		<Container>
-  			<h1>About</h1>
-  		</Container>
+  		<TopCols
+        cols = {content.cols}
+      />
+      <Why/>
+      <TwoCols/>
+      <CurrentResources
+        resources = {content.resources}
+      />
     </MainLayout>
 	);
 };
+
+const TopCols = ({cols}) => (
+  <Container fluid>
+    <Row className="peach">
+      {cols.map((col) => (
+        <Col xs={12} md={4}>
+          <h3>{col.heading}</h3>
+          <p>{col.statement}</p>
+        </Col>
+      ))}
+    </Row>
+  </Container>
+);
+
+const Why = ({}) => (
+  <Container fluid>
+    <Row>
+      <Col xs={12} md={5}>
+        <Image
+          src="../static/images/perry-grone-lbLgFFlADrY-unsplash.jpg"
+          fluid
+        />
+      </Col>
+      <Col xs={12} md={7}>
+        <h2 style={{"textAlign":"left"}}>Why are we Doing this?</h2>
+        <p  style={{"textAlign":"left"}}>{content.description}</p>
+        <Button className="site-nav-btn"><span>Volunteer</span></Button>
+        <div style={{"float":"right"}}>
+          <FacebookLogo/>
+          <InstagramLogo/>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+);
+
+const TwoCols = () => (
+  <Container fluid>
+    <Row>
+      <Col className="peach" style={{"textAlign":"center"}} xs={12} md={6}>
+        <h2>Why Join the Community</h2>
+        <p>{content.community}</p>
+        <Button className="join-btn"><span>Join</span></Button>
+      </Col>
+      <Col className="blue" style={{"textAlign":"center"}} xs={12} md={6}>
+        <h2>How you can Help</h2>
+        <p>{content.help}</p>
+        <Button className="site-nav-btn"><span>Volunteer</span></Button>
+      </Col>
+    </Row>
+  </Container>
+);
+
+const CurrentResources = ({resources}) => (
+  <div className="m-3">
+  <div className="resource-cont">
+    <h2>List of Current Resources</h2>
+    {resources.map((item) => (
+      <div className="resource-item">
+        <p>{item}</p>
+      </div>
+    ))}
+  </div>
+  <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
+  </div>
+
+);
 
 export default About;

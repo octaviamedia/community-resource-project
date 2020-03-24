@@ -74,11 +74,24 @@ h4{
 
 .peach{
   background:$peach;
-  padding-right: 15%;
-  padding-left: 15%;
+  padding: 1em;
 }
 
 .blue{
   background: $light-blue;
   padding: 1em
+}
+
+.resource-cont{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.resource-item{
+  display: inline-block;
+  background:$light-blue;
+  margin: 15px;
+  padding: 1px;
+  border-radius: 50px;
 }
