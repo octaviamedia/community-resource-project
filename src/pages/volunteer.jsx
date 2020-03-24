@@ -2,14 +2,14 @@ import "../styles/main.scss";
 import { Container, Row, Col, Image} from "react-bootstrap";
 import content from "../data/volunteer"
 import MainLayout from "../components/layout";
-import VolunteerForm from "../components/volunteerForm";
+import {VolunteerForm} from "../components/forms";
 
 const Support = () => {
 	return (
     <MainLayout banner={content.banner}>
       <Description/>
       <Steps/>
-      <div>
+      <div className="sand">
         <VolunteerForm/>
       </div>
     </MainLayout>

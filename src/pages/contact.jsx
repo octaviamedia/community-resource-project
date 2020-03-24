@@ -1,12 +1,13 @@
 import "../styles/main.scss";
 import { Container } from "react-bootstrap";
 import MainLayout from "../components/layout";
+import {ContactForm}from "../components/forms";
 
 const Contact = () => {
 	return (
     <MainLayout>
-  		<Container>
-  			<h1>Contact Us</h1>
+  		<Container className="peach" fluid>
+        <ContactForm/>
   		</Container>
     </MainLayout>
 	);

@@ -80,6 +80,7 @@ const TwoCols = () => (
 );
 
 const CurrentResources = ({resources}) => (
+  <Container fluid className="sand">
   <div className="m-3">
   <div className="resource-cont">
     <h2>List of Current Resources</h2>
@@ -93,6 +94,7 @@ const CurrentResources = ({resources}) => (
     <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
   </Link>
   </div>
+  </Container>
 
 );
 
