@@ -1,4 +1,5 @@
 import "../styles/main.scss";
+import Link from "next/link";
 import { Container, Row, Col, Button, Image } from "react-bootstrap";
 import MainLayout from "../components/layout";
 import CalltoAction from "../components/cta";
@@ -12,7 +13,9 @@ const Index = () => {
           <Col>
             <h1>We're Here to Help</h1>
             <p>{content.description}</p>
-            <Button className="site-nav-btn mx-auto d-block"><span>About Us</span></Button>
+            <Link href="/about">
+              <Button className="site-nav-btn mx-auto d-block"><span>About Us</span></Button>
+            </Link>
           </Col>
         </Row>
 
@@ -70,7 +73,7 @@ const Index = () => {
 
 const Iframe = ({link, credit}) => (
   <div className = "iframe">
-    <iframe width="100%" height="300"
+    <iframe width="100%" height="400"
       src={link}>
     </iframe>
     <a href="https://www.youtube.com/user/CDCStreamingHealth">

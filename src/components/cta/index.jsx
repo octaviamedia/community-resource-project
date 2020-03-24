@@ -1,5 +1,6 @@
 import React from "react";
 import {Row, Col, Button} from "react-bootstrap";
+import Link from "next/link";
 
 const CalltoAction = ({heading, steps}) => {
   return (
@@ -12,8 +13,12 @@ const CalltoAction = ({heading, steps}) => {
     ))}
     </ol>
     <div align="center">
-      <Button className="site-nav-btn"><span>Join</span></Button>
-      <Button className="site-nav-btn"><span>Volunteer</span></Button>
+      <Link href="/join">
+        <Button className="site-nav-btn"><span>Join</span></Button>
+      </Link>
+      <Link href="/volunteer">
+        <Button className="site-nav-btn"><span>Volunteer</span></Button>
+      </Link>
     </div>
   </div>)
 };

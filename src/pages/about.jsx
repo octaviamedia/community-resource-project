@@ -1,6 +1,7 @@
 import "../styles/main.scss";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import {FacebookLogo, InstagramLogo} from "../components/buttons/socialButtons";
+import Link from "next/link";
 import content from "../data/about";
 import Cta from "../components/cta"
 import MainLayout from "../components/layout";
@@ -45,7 +46,9 @@ const Why = ({}) => (
       <Col xs={12} md={7}>
         <h2 style={{"textAlign":"left"}}>Why are we Doing this?</h2>
         <p  style={{"textAlign":"left"}}>{content.description}</p>
-        <Button className="site-nav-btn"><span>Volunteer</span></Button>
+        <Link href="/volunteer">
+          <Button className="site-nav-btn"><span>Volunteer</span></Button>
+        </Link>
         <div style={{"float":"right"}}>
           <FacebookLogo/>
           <InstagramLogo/>
@@ -61,12 +64,16 @@ const TwoCols = () => (
       <Col className="peach" style={{"textAlign":"center"}} xs={12} md={6}>
         <h2>Why Join the Community</h2>
         <p>{content.community}</p>
-        <Button className="join-btn"><span>Join</span></Button>
+        <Link href="/join">
+          <Button className="join-btn"><span>Join</span></Button>
+        </Link>
       </Col>
       <Col className="blue" style={{"textAlign":"center"}} xs={12} md={6}>
         <h2>How you can Help</h2>
         <p>{content.help}</p>
-        <Button className="site-nav-btn"><span>Volunteer</span></Button>
+        <Link href="volunteer">
+          <Button className="site-nav-btn"><span>Volunteer</span></Button>
+        </Link>
       </Col>
     </Row>
   </Container>
@@ -82,7 +89,9 @@ const CurrentResources = ({resources}) => (
       </div>
     ))}
   </div>
-  <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
+  <Link href="/resources">
+    <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
+  </Link>
   </div>
 
 );

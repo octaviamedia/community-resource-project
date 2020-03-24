@@ -4,7 +4,7 @@ import {Container,
         Col,
         Image} from "react-bootstrap";
 import {FacebookLogo, InstagramLogo} from "../buttons/socialButtons";
-
+import Link from "next/link";
 import siteMap from "../../data/siteMap";
 
 const Footer = ({navItems}) => (
@@ -12,35 +12,27 @@ const Footer = ({navItems}) => (
     <div>
       <Container className="footer-container" fluid>
         <Row>
-          <Col xs={12} md={8}>
-            <Image
-              src = "../../../static/images/acrp LOGO 031920 2.png"
-              height={175}
-              width={300}
-              className = "m-auto d-block"
-            />
-          </Col>
-          <Col xs={6} md={4} className = "d-none d-md-block">
-            <Image
-              src = "../../../static/images/perry-grone-lbLgFFlADrY-unsplash.jpg"
-              fluid
-            />
-          </Col>
-        </Row>
-
-        <Row>
           <Col xs={12} md = {4}>
-            <ul className="footer-map">
+            <ul className="footer-map d-none d-md-block">
               {siteMap.map((item) => (
-                <li className="footer-map-item">{item.page}</li>
+                <Link href={item.ref}>
+                  <li className="footer-map-item">{item.page}</li>
+                </Link>
               ))}
             </ul>
           </Col>
-          <Col>
-            <div className="socials-container">
+          <Col xs={12} md={4}>
+            <div className="socials-container" style={{"textAlign":"center"}}>
               <FacebookLogo/>
               <InstagramLogo/>
             </div>
+          </Col>
+          <Col xs={12} md={4} style={{"textAlign":"center"}}>
+            <Image
+              src = "../../../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
+              height={200}
+              width={400}
+            />
           </Col>
         </Row>
         <p align="center">&copy;2020 All Rights Reserved. Site Design by Octavia Social Media Strategies</p>
