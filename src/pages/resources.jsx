@@ -100,7 +100,7 @@ const Aid = () => (
 const Callto = () =>(
   <Container fluid>
     <Row className="blue">
-      <Col xs={12} md={6}>
+      <Col xs={12} md={6} className="p-3">
         <Image
           src="../static/images/TCRP Logo 3.21.20.jpg"
           fluid

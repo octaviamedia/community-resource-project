@@ -62,7 +62,7 @@ const Why = ({}) => (
 const TwoCols = () => (
   <Container fluid>
     <Row>
-      <Col className="peach" style={{"textAlign":"center"}} xs={12} md={6}>
+      <Col className="sand" style={{"textAlign":"center"}} xs={12} md={6}>
         <h2>Why Join the Community</h2>
         <p>{content.community}</p>
         <Link href="/join">
@@ -101,7 +101,7 @@ const CurrentResources = ({resources}) => (
 const Callto = () =>(
   <Container fluid>
     <Row className="blue">
-      <Col xs={12} md={6}>
+      <Col xs={12} md={6} className="p-3">
         <Image
           src="../static/images/TCRP Logo 3.21.20.jpg"
           fluid

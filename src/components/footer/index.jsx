@@ -29,8 +29,9 @@ const Footer = ({navItems}) => (
           <Col xs={12} md={4} style={{"textAlign":"center"}}>
             <Image
               src = "../../../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
-              height={200}
-              width={400}
+              height={220}
+              width={450}
+              fluid
             />
           </Col>
         </Row>
