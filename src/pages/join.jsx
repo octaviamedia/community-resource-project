@@ -14,6 +14,7 @@ const Join = () => {
         cols = {content.cols}
       />
       <JoinFB/>
+      <Aid/>
     </MainLayout>
   )
 };
@@ -55,8 +56,32 @@ const JoinFB = () => (
       <Col style={{"textAlign":"center"}}>
         <div className="socials-container">
           <FacebookLogo/>
-          <InstagramLogo/>
         </div>
+      </Col>
+    </Row>
+  </Container>
+);
+
+const Aid = () => (
+  <Container fluid className="blue">
+    <Row>
+      <Col>
+        <h2>If you Need Medical Assistance</h2>
+        <ol>
+          <li>
+            <h4 style={{"textAlign":"left"}}>Banner Health -
+              <a href="tel:8445491851">1-844-549-1851</a></h4>
+          </li>
+          <li>
+            <h4 style={{"textAlign":"left"}}>W.H.O Chat: If people have questions they can ask the WHO through the WhatsApp by sending a message to +41 79 781 87 91</h4>
+            <a href="https://api.whatsapp.com/send?phone=41797818791&text=hi&source=&data=">https://api.whatsapp.com/send?phone=41797818791&text=hi&source=&data=</a>
+          </li>
+          <li>
+            <h4 style={{"textAlign":"left"}}>T.M.C -
+              <a href="tel:5206266016">1(520) 626-6016</a> or
+              <a href="tel:8445428201">1(844) 542-8201</a></h4>
+          </li>
+        </ol>
       </Col>
     </Row>
   </Container>

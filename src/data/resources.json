@@ -47,5 +47,13 @@
           "src":"../static/images/World_Health_Organization_logo_WHO.png",
           "link":"https://www.who.int/"
         }
-      ]
+      ],
+  "cta": {
+    "heading": "By joining the community, you’ll be able to receive and give help to those who are in need.Become part of the community, following these easy 3 steps:",
+      "steps": [
+        "Fill out the form by clicking the link below.",
+        "Tell us what your needs are.",
+        "Let your community contribute to you."
+         ]
+      }
 }

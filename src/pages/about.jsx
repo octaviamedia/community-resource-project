@@ -39,7 +39,7 @@ const TopCols = ({cols}) => (
 const Why = ({}) => (
   <Container fluid>
     <Row>
-      <Col xs={12} md={5}>
+      <Col xs={12} md={5} style={{"padding":"0"}}>
         <Image
           src="../static/images/perry-grone-lbLgFFlADrY-unsplash.jpg"
           fluid
@@ -53,7 +53,6 @@ const Why = ({}) => (
         </Link>
         <div style={{"float":"right"}}>
           <FacebookLogo/>
-          <InstagramLogo/>
         </div>
       </Col>
     </Row>

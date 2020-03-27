@@ -33,7 +33,7 @@ const steps = ["Join the Facebook Community", "Fill out the Form Below", "Attend
 const Steps = () => (
   <Container className="blue" fluid>
     <Row>
-      <Col>
+      <Col xs={12} md={6}>
         <h2 style={{"textAlign":"left"}}>Follow These Three Easy Steps</h2>
         <ol>
           {steps.map((step) => (
@@ -41,9 +41,10 @@ const Steps = () => (
           ))}
         </ol>
       </Col>
-      <Col>
+      <Col xs={12} md={6} style={{"padding":"0"}}>
         <Image
           src = "../static/images/anna-earl-J-Jb1niw1j0-unsplash.jpg"
+          width="100%"
           fluid
         />
       </Col>

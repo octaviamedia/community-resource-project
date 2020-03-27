@@ -24,7 +24,6 @@ const Footer = ({navItems}) => (
           <Col xs={12} md={4}>
             <div className="socials-container" style={{"textAlign":"center"}}>
               <FacebookLogo/>
-              <InstagramLogo/>
             </div>
           </Col>
           <Col xs={12} md={4} style={{"textAlign":"center"}}>

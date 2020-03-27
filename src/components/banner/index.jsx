@@ -1,5 +1,6 @@
 import React from "react";
 import {Image, Button} from "react-bootstrap";
+import Link from "next/link";
 
 
 const Banner = ({img, buttons, title}) => {
@@ -9,9 +10,11 @@ const Banner = ({img, buttons, title}) => {
 
       <div className = "banner-btn-cont">
         {buttons && buttons.map((button) => (
-          <Button className="banner-buttons">
-            <span>{button.text}</span>
-          </Button>
+          <Link href={button.ref}>
+            <Button className="banner-buttons">
+              <span>{button.text}</span>
+            </Button>
+          </Link>
         ))}
       </div>
     </div>

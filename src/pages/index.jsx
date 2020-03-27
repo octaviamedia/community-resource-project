@@ -9,7 +9,7 @@ const Index = () => {
 	return (
     <MainLayout banner = {content.banner}>
   		<Container fluid>
-  			<Row>
+  			<Row className="peach">
           <Col>
             <h1>We're Here to Help</h1>
             <p>{content.description}</p>
@@ -30,24 +30,23 @@ const Index = () => {
                 </a>
               ))}
             </ol>
+            <p>If you are concerned that you may have COVID-19, or have any questions, call</p>
+              <ol>
+                <li>
+                  <h4 style={{"textAlign":"left"}}>Banner Health - <a href="8445491851">844-549-1851</a></h4>
+                </li>
+              </ol>
+            <Link href="resources">
+              <Button className="site-nav-btn mx-auto d-block"><span>Resources</span></Button>
+            </Link>
           </Col>
+
           <Col xs={12} md={6}>
             <h2>The Importance of Social Distancing</h2>
             <Iframe
               link = "https://www.youtube.com/embed/-nZMeNP84gM?autoplay=1"
               credit = "Centers for Disease Control and Prevention (CDC)"
             />
-          </Col>
-        </Row>
-
-        <Row className="peach p-1">
-          <Col>
-            <h2>Upcoming Virtual Events</h2>
-          </Col>
-        </Row>
-        <Row className="peach">
-          <Col>
-            <h3>{content.fundraising}</h3>
           </Col>
         </Row>
 
