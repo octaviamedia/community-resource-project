@@ -15,9 +15,20 @@
    },
    "description": "We created this project to bring a sense of community and to truly come together during uncertain times. To remind people how to shop smartly, to remind people that if they are in need there is someone there that has their back, to remind them that we can still enjoy life even though life does not look the same way it did just a few months ago. We are here to help people find the resources they need and the volunteers who are willing to give back. Need toilet paper? We got you. Need water? We got you. Just ask your community and were here to help. Click Here to learn more about what we do.",
 
-   "links":["https://www.cdc.gov/coronavirus/2019-nCoV/index.html",
-            "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
-            "https://hms.harvard.edu/news/mobilizing-moment"],
+   "links":[
+         {
+         "heading":"Click here to learn more on what the CDC is recommending,",
+         "ref":"https://www.cdc.gov/coronavirus/2019-nCoV/index.html"
+         },
+         {
+         "heading":"Click here to read information from W.H.O,",
+         "ref":"https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+         },
+         {
+         "heading":"Click here to see what Harvard Professionals are saying about the COVID-19 virus",
+         "ref":"https://hms.harvard.edu/news/mobilizing-moment"
+          }
+        ],
 
    "news": "Really want to know what’s going on with the COVID-19 virus? Click on the links below to find out more.",
    "fundraising": "Just because you can’t go out to an event, doesn’t mean we can’t bring an event to you. Here is the list of Virtual Events you can attend from the comfort of your home.",

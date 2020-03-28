@@ -7,7 +7,7 @@ const CalltoAction = ({heading, steps}) => {
   <div>
     <h2>Ready to Join the Community?</h2>
     <p>{heading}</p>
-    <ol>
+    <ol style={{"listStyleType":"none", "textAlign":"center"}}>
     {steps.map((step) => (
       <li>{step}</li>
     ))}

@@ -7,7 +7,7 @@
 }
 
 .footer-map{
-  margin-top:20px;
+  margin-top:10px;
   @include media-breakpoint-down(xs) {
     display: none;
 	}
@@ -15,7 +15,7 @@
 
 .footer-map-item{
   list-style-type: none;
-
+  margin-top:-5px;
   width:50%;
   color:$navy-blue;
 }

@@ -25,15 +25,15 @@ const Index = () => {
             <p>{content.news}</p>
             <ol>
               {content.links.map((link) => (
-                <a href={link}>
-                  <li className="link">{link}</li>
+                <a href={link.ref}>
+                  <li className="link">{link.heading}</li>
                 </a>
               ))}
             </ol>
             <p>If you are concerned that you may have COVID-19, or have any questions, call</p>
               <ol>
-                <li>
-                  <h4 style={{"textAlign":"left"}}>Banner Health - <a href="8445491851">844-549-1851</a></h4>
+                <li style={{"listStyleType":"none"}}>
+                  <h4>Banner Health: <a href="8445491851">844-549-1851</a></h4>
                 </li>
               </ol>
             <Link href="resources">
@@ -53,7 +53,7 @@ const Index = () => {
         <Row className="blue">
           <Col xs={12} md={6} className="p-3">
             <Image
-              src="../static/images/TCRP Logo 3.21.20.jpg"
+              src="../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
               fluid
             />
           </Col>
