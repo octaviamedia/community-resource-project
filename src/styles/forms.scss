@@ -10,7 +10,7 @@
 
 label{
   margin:auto;
-  display: inline-block;
+  display: block;
   padding: 20px;
 }
 
@@ -18,15 +18,18 @@ input{
   margin:auto;
   display: block;
   height: 50px;
+  width: 50%;
   border-radius: 10px;
 }
 
 select{
+  margin:auto;
   display: block;
   padding: 20px;
 }
 
 textarea{
+  margin:auto;
   display: block;
   padding: 20px;
 }

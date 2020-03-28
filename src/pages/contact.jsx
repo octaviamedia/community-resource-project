@@ -7,6 +7,7 @@ import CalltoAction from "../components/cta";
 const content = {
      "banner": {
         "img": "../../static/images/Home Banner Img.jpg",
+        "title":"Lets Hear From You"
       },
       "cta": {
          "heading": "By joining the community, you’ll be able to receive and give help to those who are in need.Become part of the community, following these easy 3 steps:",

@@ -14,8 +14,14 @@
 
 .banner-title{
   color:$peach;
-  top:30%;
+  top:50%;
   left:50%;
   transform: translate(-50%, -50%);
   position: absolute;
+}
+
+.banner-layover{
+  background-color: rgba(241,143,126, .75);
+  color:$navy-blue;
+  padding: 4px;
 }

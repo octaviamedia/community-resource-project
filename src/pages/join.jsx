@@ -28,7 +28,7 @@ const TopCols = ({cols}) => (
     </Row>
     <Row className="peach">
       {cols.map((col) => (
-        <Col xs={12} md={3} style={{"textAlign":"center"}}>
+        <Col xs={12} md={4} style={{"textAlign":"center"}}>
           <h3>{col.heading}</h3>
           <p>{col.description}</p>
           {col.button && <Link href={col.ref}>

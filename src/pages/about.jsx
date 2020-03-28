@@ -39,21 +39,19 @@ const TopCols = ({cols}) => (
 const Why = ({}) => (
   <Container fluid>
     <Row>
-      <Col xs={12} md={5} style={{"padding":"0"}}>
+      <Col xs={12} md={6} style={{"padding":"0"}}>
         <Image
           src="../static/images/perry-grone-lbLgFFlADrY-unsplash.jpg"
-          fluid
+          width="100%"
+          height="100%"
         />
       </Col>
-      <Col xs={12} md={7}>
+      <Col xs={12} md={6}>
         <h2 style={{"textAlign":"left"}}>Why are we Doing this?</h2>
         <p  style={{"textAlign":"left"}}>{content.description}</p>
         <Link href="/volunteer">
-          <Button className="site-nav-btn"><span>Volunteer</span></Button>
+          <Button className="site-nav-btn mx-auto d-block"><span>Volunteer</span></Button>
         </Link>
-        <div style={{"float":"right"}}>
-          <FacebookLogo/>
-        </div>
       </Col>
     </Row>
   </Container>
@@ -83,13 +81,13 @@ const TwoCols = () => (
 const CurrentResources = ({resources}) => (
   <Container fluid>
   <div className="m-3">
-  <div className="resource-cont">
+  <div className="resource-cont" className="mx-auto d-block">
     <h2>List of Current Resources</h2>
+    <ol style={{"listStyleType":"none", "marginLeft":"-40px"}}>
     {resources.map((item) => (
-      <div className="resource-item">
-        <p>{item}</p>
-      </div>
+        <li><h4>{item}</h4></li>
     ))}
+    </ol>
   </div>
   <Link href="/resources">
     <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
@@ -103,7 +101,7 @@ const Callto = () =>(
     <Row className="blue">
       <Col xs={12} md={6} className="p-3">
         <Image
-          src="../static/images/TCRP Logo 3.21.20.jpg"
+          src="../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
           fluid
         />
       </Col>

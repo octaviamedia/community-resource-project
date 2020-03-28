@@ -12,8 +12,6 @@ const Resources = () => {
       <CurrentResources
         resources = {content.resources}
       />
-      <Aid/>
-      <Links/>
       <Callto/>
     </MainLayout>
 	);
@@ -102,7 +100,7 @@ const Callto = () =>(
     <Row className="blue">
       <Col xs={12} md={6} className="p-3">
         <Image
-          src="../static/images/TCRP Logo 3.21.20.jpg"
+          src="../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
           fluid
         />
       </Col>

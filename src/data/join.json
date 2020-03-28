@@ -1,6 +1,6 @@
 {
   "banner":{
-    "img":"../static/images/Home Banner Img.jpg",
+    "img":"static/images/shutterstock_154573484.jpg",
     "title":""
   },
   "cols":[
@@ -21,12 +21,6 @@
       "description":"As our community grows, were looking for those who want to volunteer and to be of service of our community, whether its running to pick up medical supplies for an elderly couple, or picking up some formula for a single mother of two, our volunteers are here to lend a hand.",
       "ref":"/volunteer",
       "button":"Volunteer"
-    },
-    {
-      "heading":"Virtual Events",
-      "description":"We thrive on providing good quality and positive events to showcase new talent while raising money for those in need. Were excited and would love to host your next virtual event. Let your creativity, wisdom, knowledge and expertise help empower others in the community.",
-      "ref":"/virtual-events",
-      "button":"Virtual Events"
     }
   ]
 }

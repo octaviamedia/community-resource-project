@@ -33,7 +33,6 @@ class ContactForm extends React.Component{
   render() {
     return (
       <div className = "form-cont peach">
-        <h2>Lets Hear From You</h2>
         <form onSubmit={this.handleSubmit}>
           <label>
             <span className="form-txt">Name</span>
