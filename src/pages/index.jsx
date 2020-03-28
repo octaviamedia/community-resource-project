@@ -23,22 +23,24 @@ const Index = () => {
           <Col xs={12} md={6}>
             <h2>Current Update on COVID-19</h2>
             <p>{content.news}</p>
-            <ol>
+            <ul>
               {content.links.map((link) => (
                 <a href={link.ref}>
                   <li className="link">{link.heading}</li>
                 </a>
               ))}
-            </ol>
+            </ul>
             <p>If you are concerned that you may have COVID-19, or have any questions, call</p>
-              <ol>
+              <ul>
                 <li style={{"listStyleType":"none"}}>
                   <h4>Banner Health: <a href="8445491851">844-549-1851</a></h4>
                 </li>
-              </ol>
-            <Link href="resources">
-              <Button className="site-nav-btn mx-auto d-block"><span>Resources</span></Button>
-            </Link>
+                <li style={{"listStyleType":"none"}} className="link">
+                    <h4>
+                      <a href="https://www.bannerhealth.com/patients/patient-resources/covid-19#Tested">Click here to learn where you can get tested</a>
+                    </h4>
+                </li>
+              </ul>
           </Col>
 
           <Col xs={12} md={6}>

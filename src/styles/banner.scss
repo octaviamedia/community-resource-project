@@ -25,3 +25,9 @@
   color:$navy-blue;
   padding: 4px;
 }
+
+@media (max-width: 768px){
+  .banner-layover{
+    padding:1px;
+  }
+}

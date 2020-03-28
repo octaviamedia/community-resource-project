@@ -36,6 +36,10 @@ li{
   margin:.5em
 }
 
+a{
+  color:$navy-blue;
+}
+
 .link{
   color:$navy-blue;
 }
@@ -45,6 +49,12 @@ h1{
   font-family: $secondary-font;
   margin: .75em;
   text-align: center;
+}
+//for mobile banner header
+@media (max-width: 768px){
+  h1{
+    font-size: 1.5em
+  }
 }
 
 h2{
