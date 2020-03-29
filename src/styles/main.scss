@@ -16,14 +16,14 @@ body{
 }
 
 p{
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-family: $primary-font;
   text-align: center;
   margin:1.25em
 }
 
 span{
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: $primary-font;
   margin:.5em
@@ -45,7 +45,7 @@ a{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 3.5em;
   font-family: $secondary-font;
   margin: .75em;
   text-align: center;
@@ -58,7 +58,7 @@ h1{
 }
 
 h2{
-  font-size: 2.5em;
+  font-size: 3em;
   font-family: $secondary-font;
   margin: 1em;
   text-align: center;
@@ -72,7 +72,7 @@ h3{
 }
 
 h4{
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-family: $secondary-font;
   margin: 1em;
   text-align: center;

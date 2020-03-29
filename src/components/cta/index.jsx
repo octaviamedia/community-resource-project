@@ -14,10 +14,7 @@ const CalltoAction = ({heading, steps}) => {
     </ol>
     <div align="center">
       <Link href="/join">
-        <Button className="site-nav-btn"><span>Join</span></Button>
-      </Link>
-      <Link href="/volunteer">
-        <Button className="site-nav-btn"><span>Volunteer</span></Button>
+        <Button className="site-nav-btn mx-auto d-block"><span>Join</span></Button>
       </Link>
     </div>
   </div>)

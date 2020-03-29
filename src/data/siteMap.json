@@ -12,10 +12,6 @@
     "ref":"/resources"
   },
   {
-    "page":"Volunteer",
-    "ref":"/volunteer"
-  },
-  {
     "page":"Contact",
     "ref":"/contact"
   }

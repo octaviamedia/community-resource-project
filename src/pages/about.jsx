@@ -39,19 +39,17 @@ const TopCols = ({cols}) => (
 const Why = ({}) => (
   <Container fluid>
     <Row>
-      <Col xs={12} md={6} style={{"padding":"0"}}>
+      <Col xs={12} md={6} style={{"padding":"25px"}}>
         <Image
           src="../static/images/perry-grone-lbLgFFlADrY-unsplash.jpg"
-          width="100%"
-          height="100%"
+          width="75%"
+          height="80%"
+          className="mx-auto d-block"
         />
       </Col>
       <Col xs={12} md={6}>
-        <h2 style={{"textAlign":"left"}}>Why are we Doing this?</h2>
-        <p  style={{"textAlign":"left"}}>{content.description}</p>
-        <Link href="/volunteer">
-          <Button className="site-nav-btn mx-auto d-block"><span>Volunteer</span></Button>
-        </Link>
+        <h2>Why are we Doing this?</h2>
+        <p>{content.description}</p>
       </Col>
     </Row>
   </Container>
@@ -67,12 +65,11 @@ const TwoCols = () => (
           <Button className="join-btn"><span>Join</span></Button>
         </Link>
       </Col>
-      <Col className="blue" style={{"textAlign":"center"}} xs={12} md={6}>
-        <h2>How you can Help</h2>
-        <p>{content.help}</p>
-        <Link href="volunteer">
-          <Button className="site-nav-btn"><span>Volunteer</span></Button>
-        </Link>
+      <Col className="sand" style={{"textAlign":"center"}} xs={12} md={6}>
+        <Image
+          src="../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
+          fluid
+        />
       </Col>
     </Row>
   </Container>
@@ -101,7 +98,7 @@ const Callto = () =>(
     <Row className="blue">
       <Col xs={12} md={6} className="p-3">
         <Image
-          src="../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
+          src="../static/images/shutterstock_159666353.jpg"
           fluid
         />
       </Col>
