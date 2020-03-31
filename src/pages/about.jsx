@@ -15,9 +15,6 @@ const About = () => {
       />
       <Why/>
       <TwoCols/>
-      <CurrentResources
-        resources = {content.resources}
-      />
       <Callto/>
     </MainLayout>
 	);
@@ -72,24 +69,6 @@ const TwoCols = () => (
         />
       </Col>
     </Row>
-  </Container>
-);
-
-const CurrentResources = ({resources}) => (
-  <Container fluid>
-  <div className="m-3">
-  <div className="resource-cont" className="mx-auto d-block">
-    <h2>List of Current Resources</h2>
-    <ol style={{"listStyleType":"none", "marginLeft":"-40px"}}>
-    {resources.map((item) => (
-        <li><h4>{item}</h4></li>
-    ))}
-    </ol>
-  </div>
-  <Link href="/resources">
-    <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
-  </Link>
-  </div>
   </Container>
 );
 

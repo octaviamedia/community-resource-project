@@ -1,7 +1,7 @@
 {
    "banner": {
       "img": "../../static/images/Home Banner Img.jpg",
-      "title":"Welcome to Your Community",
+      "title":"Welcome To Your Southern Arizona Online Community",
       "buttons":[
         {
           "text":"Learn More",
@@ -39,5 +39,14 @@
          "Tell us what your needs are.",
          "Let your community contribute to you."
       ]
-   }
+   },
+   "resources":[
+     "Cleaning Supplies",
+     "Employment / Unemployment Support",
+     "Groceries",
+     "Household Items",
+     "Housing",
+     "Small Business Support",
+     "Water"
+   ]
 }

@@ -18,10 +18,15 @@ const Index = () => {
             </Link>
           </Col>
         </Row>
-
         <Row>
+          <CurrentResources
+            resources={content.resources}
+          />
+        </Row>
+
+        <Row className="sand">
           <Col xs={12} md={6}>
-            <h2>Current Update on COVID-19</h2>
+            <h2>Current Update on COVID-19 in Arizona</h2>
             <p>{content.news}</p>
             <ul>
               {content.links.map((link) => (
@@ -71,6 +76,24 @@ const Index = () => {
     </MainLayout>
 	);
 };
+
+const CurrentResources = ({resources}) => (
+  <Container fluid>
+  <div className="m-3">
+  <div className="resource-cont" className="mx-auto d-block">
+    <h2>List of Current Resources</h2>
+    <ol style={{"listStyleType":"none", "marginLeft":"-40px"}}>
+    {resources.map((item) => (
+        <li><h4>{item}</h4></li>
+    ))}
+    </ol>
+  </div>
+  <Link href="/resources">
+    <Button className="site-nav-btn m-auto d-block"><span>More</span></Button>
+  </Link>
+  </div>
+  </Container>
+);
 
 const Iframe = ({link, credit}) => (
   <div className = "iframe">
