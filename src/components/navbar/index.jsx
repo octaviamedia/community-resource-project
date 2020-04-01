@@ -18,12 +18,6 @@ const MainNavbar = ({navItems}) => {
         height={150}
       />
 
-      <Navbar.Toggle className = "ml-auto">
-        <div className = "toggleRow"></div>
-        <div className = "toggleRow"></div>
-        <div className = "toggleRow"></div>
-      </Navbar.Toggle>
-
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="m-auto" defaultActiveKey="/">
           {navItems.map((item) => (
@@ -32,14 +26,6 @@ const MainNavbar = ({navItems}) => {
             </Nav.Link>
           ))}
         </Nav>
-        <Navbar.Brand className = "ml-auto">
-          <Nav.Link href="/join">
-           <Button className="join-btn">
-             <span>Join</span>
-           </Button>
-         </Nav.Link>
-
-       </Navbar.Brand>
       </Navbar.Collapse>
     </Navbar>
   </div>

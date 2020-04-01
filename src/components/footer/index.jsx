@@ -26,14 +26,6 @@ const Footer = ({navItems}) => (
               <FacebookLogo/>
             </div>
           </Col>
-          <Col xs={12} md={4} style={{"textAlign":"center", "verticalAlign":"bottom"}}>
-            <Image
-              src = "../../../static/images/TCRP LOGO UPDATED 3.23.20.jpg"
-              height={220}
-              width={450}
-              fluid
-            />
-          </Col>
         </Row>
         <p align="center" className="footer-txt">&copy;2020 All Rights Reserved. Site Design by Octavia Social Media Strategies</p>
       </Container>

@@ -1,12 +1,8 @@
 {
    "banner": {
       "img": "../../static/images/Home Banner Img.jpg",
-      "title":"Welcome To Your Southern Arizona Online Community",
+      "title":"Coming Soon...",
       "buttons":[
-        {
-          "text":"Learn More",
-          "ref":"/about"
-        },
         {
           "text":"Join",
           "ref":"/join"

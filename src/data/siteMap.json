@@ -1,18 +1,2 @@
 [
-  {
-    "page":"Home",
-    "ref":"/"
-  },
-  {
-    "page":"About",
-    "ref":"/about"
-  },
-  {
-    "page":"Resources",
-    "ref":"/resources"
-  },
-  {
-    "page":"Contact",
-    "ref":"/contact"
-  }
 ]

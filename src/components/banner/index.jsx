@@ -15,11 +15,11 @@ const Banner = ({img, buttons, title}) => {
         />}
         {buttons && buttons.map((button) => (
 
-          <Link href={button.ref}>
+          <a href="https://www.facebook.com/TheCommunityResourceProject/">
             <Button className="banner-buttons">
               <span>{button.text}</span>
             </Button>
-          </Link>
+          </a>
         ))}
       </div>
     </div>
