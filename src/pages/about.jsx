@@ -25,7 +25,12 @@ const TopCols = ({cols}) => (
     <Row className="peach">
       {cols.map((col) => (
         <Col xs={12} md={4}>
-          <h3>{col.heading}</h3>
+          <Image
+            src={col.src}
+            width={250}
+            height={150}
+            className="mx-auto d-block img-header"
+          />
           <p>{col.statement}</p>
         </Col>
       ))}

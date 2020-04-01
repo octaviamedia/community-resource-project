@@ -35,7 +35,7 @@ const Footer = ({navItems}) => (
             />
           </Col>
         </Row>
-        <p align="center">&copy;2020 All Rights Reserved. Site Design by Octavia Social Media Strategies</p>
+        <p align="center" className="footer-txt">&copy;2020 All Rights Reserved. Site Design by Octavia Social Media Strategies</p>
       </Container>
     </div>
 

@@ -53,7 +53,7 @@ h1{
 //for mobile banner header
 @media (max-width: 768px){
   h1{
-    font-size: 1.5em
+    font-size: 1.25em
   }
 }
 
@@ -113,4 +113,9 @@ h4{
 
 .logo-img:hover{
   opacity: .6;
+}
+
+.img-header{
+  padding-bottom:0px;
+  margin-bottom: -50px;
 }

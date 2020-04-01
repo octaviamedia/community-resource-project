@@ -25,6 +25,10 @@
   cursor:pointer;
 }
 
+.footer-txt{
+  font-size: 1em;
+}
+
 .socials-container{
   width: 100%;
   @include media-breakpoint-down(xs) {

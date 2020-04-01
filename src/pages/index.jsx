@@ -11,7 +11,7 @@ const Index = () => {
   		<Container fluid>
   			<Row className="peach">
           <Col>
-            <h1>We're Here to Help</h1>
+            <h2>We're Here to Help</h2>
             <p>{content.description}</p>
             <Link href="/about">
               <Button className="site-nav-btn mx-auto d-block"><span>About Us</span></Button>

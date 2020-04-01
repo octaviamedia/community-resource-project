@@ -6,14 +6,17 @@
   "cols":[
     {
       "heading":"Mission",
+      "src":"../static/images/Artboard 1 copy.png",
       "statement":"To powerfully unify and strengthen our community by providing resources to support, build, and enhance security during any difficult period or hardship."
     },
     {
       "heading":"Purpose",
+      "src":"../static/images/Artboard 2 copy.png",
       "statement":"To create a sense of security, hope, and optimism that will enable us to heal and work together to create a more positive future."
     },
     {
       "heading":"Objective",
+      "src":"../static/images/Artboard 3 copy.png",
       "statement":"To gather people from around the state of Arizona (starting in Tucson) to join in a Virtual Community, encouraging people to volunteer and working together to help those in need."
       }
     ],

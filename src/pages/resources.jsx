@@ -21,7 +21,7 @@ const TopCol = () => (
   <Container fluid>
     <Row className="peach">
       <Col>
-        <h1>List of Community Resources</h1>
+        <h2>List of Community Resources</h2>
         <h3>No Hogging, Smart Shopping</h3>
         <p>{content.description}</p>
         <Link href="contact">
