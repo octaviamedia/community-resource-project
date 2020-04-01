@@ -1,0 +1,26 @@
+{
+  "banner":{
+    "img":"static/images/shutterstock_154573484.jpg",
+    "title":""
+  },
+  "cols":[
+    {
+      "heading":"Join the community",
+      "description":"Pretty obvious right? By joining the community, you will get access to information and resource that others are finding and that can very well benefit you in your current situation. Were not hiding anything from anyone, we just want to make sure you’re the first to know.",
+      "ref":"",
+      "facebook":"hello"
+    },
+    {
+      "heading":"Resource",
+      "description":"Were always looking for more resources to give to the community, if you know a good credible link, let us know! We’ll be happy to share with anybody. Or if you know someone who is in need of resources, share our link and let them know that support is just a click away.",
+      "ref":"/resources",
+      "button":"Resources"
+    },
+    {
+      "heading":"Volunteering",
+      "description":"As our community grows, were looking for those who want to volunteer and to be of service of our community, whether its running to pick up medical supplies for an elderly couple, or picking up some formula for a single mother of two, our volunteers are here to lend a hand.",
+      "ref":"/volunteer",
+      "button":"Volunteer"
+    }
+  ]
+}

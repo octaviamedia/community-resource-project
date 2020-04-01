@@ -1,0 +1,37 @@
+@import "./variables";
+@import "./mixins";
+
+.footer-container{
+  padding: 1em;
+  background: $off-white;
+}
+
+.footer-map{
+  margin-top:10px;
+  @include media-breakpoint-down(xs) {
+    display: none;
+	}
+}
+
+.footer-map-item{
+  list-style-type: none;
+  margin-top:-5px;
+  width:50%;
+  color:$navy-blue;
+}
+
+.footer-map-item:hover{
+  color:$peach;
+  cursor:pointer;
+}
+
+.footer-txt{
+  font-size: 1em;
+}
+
+.socials-container{
+  width: 100%;
+  @include media-breakpoint-down(xs) {
+		text-align: center;
+	}
+}

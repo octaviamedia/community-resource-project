@@ -1,12 +1,20 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
+@import url("https://fonts.googleapis.com/css?family=Dosis|Yanone+Kaffeesatz&display=swap");
 
 // variables
-$font-family-sans-serif: "Open Sans", sans-serif;
-$action-font: "Poppins", sans-serif;
+$primary-font: 'Dosis', sans-serif;
+$secondary-font: 'Yanone Kaffeesatz', sans-serif;
 
 // recommand to use http://colormind.io/bootstrap/# to generate
 // the best color scheme
+
+$peach: #F18F7E;
+$off-white: rgb(249,241,241);
+$light-blue: #C5E1F6;
+$navy-blue: #0D2647;
+$sand: #F7D1B6;
+$cta-color: #ba271a;
 
 $light-shades: #f7f5f4; // DESERT STORM
 $light-accent: #90afc1; // NEPAL

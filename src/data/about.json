@@ -1,0 +1,43 @@
+{
+  "banner":{
+    "img":"../../static/images/Home Banner Img.jpg",
+    "title":"About the Community Resource Project"
+  },
+  "cols":[
+    {
+      "heading":"Mission",
+      "src":"../static/images/Artboard 1 copy.png",
+      "statement":"To powerfully unify and strengthen our community by providing resources to support, build, and enhance security during any difficult period or hardship."
+    },
+    {
+      "heading":"Purpose",
+      "src":"../static/images/Artboard 2 copy.png",
+      "statement":"To create a sense of security, hope, and optimism that will enable us to heal and work together to create a more positive future."
+    },
+    {
+      "heading":"Objective",
+      "src":"../static/images/Artboard 3 copy.png",
+      "statement":"To gather people from around the state of Arizona (starting in Tucson) to join in a Virtual Community, encouraging people to volunteer and working together to help those in need."
+      }
+    ],
+  "description":"Its times like these, we need to come back together again. And what a great way to come together by helping one another. Join our community to get the sense of security and resources you need. By working together, we can empower each other and thrive through any hard or difficult period. Were always looking for volunteers to help us with the high demands of community needs and resources. If you are interested, click the link below to learn more on how you can help.",
+  "community":"Why not?! We’re living in a time of social distancing and feeling totally disconnected from each other. The Community Resource Project is for us to reconnect in a totally fun, unique, and creative way. If you join the community, we will be able to give you the resources and many of the things you need. An entire community will be right there at your fingertips.",
+  "help":"We can’t do anything without you, without people who want to volunteer their time to give back to their community and help those who are in need. And we have some really helpful and cool positions too. Whether it entails dropping off supplies or helping us to research and find more resources, all you need to do is fill out our short form and then you’re ready to help.",
+  "resources":[
+    "Cleaning Supplies",
+    "Employment / Unemployment Support",
+    "Groceries",
+    "Household Items",
+    "Housing",
+    "Small Business Support",
+    "Water"
+  ],
+  "cta": {
+     "heading": "By joining the community, you’ll be able to receive and give help to those who are in need.Become part of the community, following these easy 3 steps:",
+     "steps": [
+        "Fill out the form by clicking the link below.",
+        "Tell us what your needs are.",
+        "Let your community contribute to you."
+     ]
+  }
+}

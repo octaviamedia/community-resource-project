@@ -1,0 +1,59 @@
+{
+  "banner":{
+    "img":"../../static/images/Home Banner Img.jpg",
+    "title":"Resources"
+  },
+  "description":"Below is an ever-growing list of supplies given to us by other members of our community and research. Please feel free to look around, and if you have resources we can use that are not listed, please send us a message by clicking here.",
+
+  "bold":"Remember! Be kind to your community! Limited amount of supplies per household!",
+  "resources":[
+    "Groceries",
+    "Cleaning Supplies",
+    "Household Items",
+    "Water",
+    "Pet Supplies",
+    "Activities",
+    "Your Health and Wellness Tips",
+    "Medical Supplies",
+    "Medications",
+    "Internet Services",
+    "Housing",
+    "Employment / Unemployment Support",
+    "Small Business Support"
+  ],
+
+  "links":[
+        {
+          "src":"../static/images/AZSBA.png",
+          "link":"https://www.asba.com/page/covid19resources"
+        },
+        {
+          "src":"../static/images/AARP-logo.png",
+          "link":"https://www.aarp.org/health/conditions-treatments/info-2020/tele-town-hall-coronavirus.html"
+        },
+        {
+          "src":"../static/images/pima-county-logo.png",
+          "link":"https://webcms.pima.gov/cms/One.aspx?portalId=169&pageId=527452"
+        },
+        {
+          "src":"../static/images/cdc-logo.png",
+          "link":"https://www.cdc.gov/"
+        },
+        {
+          "src":"../static/images/nih-logo-color.png",
+          "link":"https://www.nih.gov/"
+        },
+        {
+          "src":"../static/images/World_Health_Organization_logo_WHO.png",
+          "link":"https://www.who.int/"
+        }
+      ],
+  "cta": {
+    "heading": "By joining the community, you’ll be able to receive and give help to those who are in need.Become part of the community, following these easy 3 steps:",
+      "steps": [
+        "Fill out the form by clicking the link below.",
+        "Tell us what your needs are.",
+        "Let your community contribute to you."
+         ]
+      }
+}

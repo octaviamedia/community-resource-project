@@ -1,0 +1,71 @@
+@import "./variables";
+
+.join-btn{
+  background: $cta-color;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+}
+
+.join-btn:hover{
+  background: $cta-color;
+  opacity: .75;
+}
+
+.join-btn:onclick{
+  background: $cta-color;
+  border: none;
+}
+
+.banner-btn-cont{
+  position: absolute;
+  left:50%;
+  top:45%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-buttons{
+  background: $navy-blue;
+  border: none;
+  margin: 15px;
+  width: 175px;
+}
+
+.site-nav-btn{
+  background: $navy-blue;
+  border: none;
+  padding:10px;
+  margin: 1em;
+}
+
+.social-btn{
+  display: inline-block;
+}
+
+.fa {
+  display: inline-block;
+  padding: 5px;
+  font-size: 50px;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  display: inline-block;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  display: inline-block;
+  background: #125688;
+  color: white;
+}

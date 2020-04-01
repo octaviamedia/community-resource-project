@@ -1,0 +1,21 @@
+@import "./variables";
+
+
+.nav{
+  margin:.75em;
+}
+
+.item{
+  color:black;
+}
+
+.item:hover{
+  color: $peach;
+}
+
+.toggleRow{
+  width: 50px;
+  height: 5px;
+  background-color: $navy-blue;
+  margin: 10px 0;
+}

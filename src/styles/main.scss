@@ -5,3 +5,117 @@
 @import "./global";
 
 @import "~bootstrap/scss/bootstrap.scss";
+@import "./banner.scss";
+@import "./navbar.scss";
+@import "./buttons.scss";
+@import "./footer.scss";
+@import "./forms.scss";
+
+body{
+  background:$off-white;
+}
+
+p{
+  font-size: 1.75em;
+  font-family: $primary-font;
+  text-align: center;
+  margin:1.25em
+}
+
+span{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: $primary-font;
+  margin:.5em
+}
+
+li{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: $primary-font;
+  margin:.5em
+}
+
+a{
+  color:$navy-blue;
+}
+
+.link{
+  color:$navy-blue;
+}
+
+h1{
+  font-size: 3.5em;
+  font-family: $secondary-font;
+  margin: .75em;
+  text-align: center;
+}
+//for mobile banner header
+@media (max-width: 768px){
+  h1{
+    font-size: 1.25em
+  }
+}
+
+h2{
+  font-size: 3em;
+  font-family: $secondary-font;
+  margin: 1em;
+  text-align: center;
+}
+
+h3{
+  font-size: 2em;
+  font-family: $secondary-font;
+  margin: 1em;
+  text-align: center;
+}
+
+h4{
+  font-size: 1.5em;
+  font-family: $secondary-font;
+  margin: 1em;
+  text-align: center;
+}
+
+.iframe{
+  text-align: center;
+  margin: 10px;
+}
+
+.peach{
+  background:$peach;
+  padding: 1em;
+}
+
+.blue{
+  background: $light-blue;
+}
+
+.sand{
+  background: $sand;
+  padding:1em;
+}
+
+.resource-cont{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.resource-item{
+  display: inline-block;
+  background:$light-blue;
+  margin: 15px;
+  padding: 1px;
+  border-radius: 50px;
+}
+
+.logo-img:hover{
+  opacity: .6;
+}
+
+.img-header{
+  padding-bottom:0px;
+  margin-bottom: -50px;
+}
